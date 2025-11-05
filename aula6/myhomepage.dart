@@ -1,3 +1,4 @@
+import 'package:aula6/widgets/mystory.dart';
 import 'package:flutter/material.dart';
 
 class MyHomePage extends StatelessWidget {
@@ -44,6 +45,12 @@ class MyHomePage extends StatelessWidget {
               ),
             ],
           )),
+          body: Column(
+            children: <Widget>[
+              MyStory(title: "Carros",)
+
+            ],
+          ) ,
     );
   }
 }
